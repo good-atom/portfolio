@@ -13,9 +13,7 @@ body {
 }
 
 .image img{
-  height: 300px;
   object-fit: cover;
-  border-radius: 7px;
 }
 
 .info h3{
