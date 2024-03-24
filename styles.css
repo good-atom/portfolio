@@ -38,3 +38,27 @@ body {
   display: inline-block; //встали в линию
   color: #ffc107;
 }
+
+.info-price {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: 
+}
+
+.add-to-cart {
+  border: none;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
