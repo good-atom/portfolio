@@ -8,3 +8,33 @@ body {
 	overflow-x: hidden;
 	height: auto;
 }
+
+.product {
+
+}
+.image{
+  margin-bottom: 10px;
+}
+
+.image img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.info h3{
+  font-size: 21px;
+  margin-bottom: 0;
+}
+
+.rating {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.rating li {
+  display: inline-block; //встали в линию
+  color: #ffc107;
+}
