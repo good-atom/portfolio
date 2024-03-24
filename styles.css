@@ -36,7 +36,8 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: 
+  align-items: center;
+  mardin-top: 10px;
 }
 
 .add-to-cart {
