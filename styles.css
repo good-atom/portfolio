@@ -29,7 +29,7 @@ body {
 
 .rating li {
   display: inline-block; //встали в линию
-  color: #FFD700;
+  color: #FFF;
 }
 
 .info-price {
