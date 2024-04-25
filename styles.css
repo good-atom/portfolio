@@ -10,10 +10,13 @@ body {
 }
 .image{
   margin-bottom: 10px;
+	
 }
 
 .image img{
   object-fit: cover;
+  height: 300px;
+  width: 300px;
 }
 
 .info h3{
