@@ -55,4 +55,7 @@ body {
 .price {
   font-weight: 700;
   font-size: 18px;
+
+.box {
+  width: 150px;
 }
