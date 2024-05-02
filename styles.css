@@ -65,3 +65,10 @@ box {
   border: 5px solid black;
   box-sizing: border-box;
 }
+
+frame {
+  font-family: Arial;
+  font-size: 21px;
+  border: medium solid black;
+}
+
