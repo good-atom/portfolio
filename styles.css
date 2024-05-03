@@ -8,15 +8,19 @@ body {
 	overflow-x: hidden;
 	height: auto;
 }
+
 .image{
   margin-bottom: 10px;
-	
+	margin-top: 10px;
 }
-
+.product{
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-top: 15px;
+}
 .image img{
-  object-fit: cover;
   height: 300px;
-  width: 300px;
+  object-fit: cover;
   border-radius: 7px;
 }
 
@@ -32,8 +36,8 @@ body {
 }
 
 .rating li {
-  display: inline-block; 
-  color: #ffc107;
+  display: inline-block;
+  color: #fcba03;
 }
 
 .info-price {
@@ -41,7 +45,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  mardin-top: 10px;
+	margin-right: -15px;
 }
 
 .add-to-cart {
@@ -59,12 +63,4 @@ body {
 .price {
   font-weight: 700;
   font-size: 18px;
-
-box {
-  width: 300px;
-  border: 5px solid black;
-  box-sizing: border-box;
 }
-
-
-
