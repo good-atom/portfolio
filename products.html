@@ -63,13 +63,30 @@
                              <div class="box">
                                 <div class="info-price">
                                   <span class="price">220<small>₽</small></span>
-                                <button class="add-to-card"> <ion-icon name="cart-outline"></ion-icon></button>
+
+                                  <div class="btn">
+                                    <a href="" id="open_pop_up" class="add-to-card"><ion-icon name="cart-outline"></ion-icon></a>
+                                  </div>
+                                <!-- <button id="open_pop_up" class="add-to-card"> <ion-icon name="cart-outline"></ion-icon></button> -->
                                 </div>
-                            </div>
+                                <div class="pop_up" id="pop_up">
+                                    <div class="pop_up_container">    
+                                        <div class="pop_up_body" id="pop_up_body">
+                                          <p>Написать</p>
+                                            <form action="">
+                                              <input type="text" placeholder="Имя">
+                                              <input type="text" placeholder="Телеграмм">
+                                              <button>Оставить заказ</button>
+                                            </form>
+                                          <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
                   </div>
               </div>
             </div>
-          </div>
         </div>
 
 
@@ -113,5 +130,7 @@
       fadeOut();
 
     </script>
+
+    <script src="main.js" ></script>
   </body>
 </html>
