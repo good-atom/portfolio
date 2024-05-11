@@ -48,7 +48,6 @@
             <div class="row">
               <div class="col-md-4">
                   <div class="product">
-
                           <div class="image">
                             <img src="med1.jpeg" alt="">
                           </div>
@@ -64,14 +63,70 @@
                              <div class="box">
                                 <div class="info-price">
                                   <span class="price">220<small>₽</small></span>
-                                <button class="add-to-cart"> <ion-icon name="cart-outline"></ion-icon></button>
+                                <button id="open_pop_up" class="add-to-card"> <ion-icon name="cart-outline"></ion-icon></button>
+                                </div>
+                                <div class="pop_up" id="pop_up">
+                                    <div class="pop_up_container">
+                                        <div class="pop_up_body" id="pop_up_body">
+                                          <p>Написать</p>
+                                            <form action="">
+                                              <input type="text" placeholder="Имя">
+                                              <input type="text" placeholder="Телеграмм">
+                                              <button>Оставить заказ</button>
+                                            </form>
+                                          <div class="pop_up_close" id="pop_up_close">
+                                              <button>X</button>
+                                          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                      </div>
                   </div>
+              </div>
             </div>
           </div>
         </div>
+
+
+        <div class="loader-container">
+          <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+              <div class="hamster__body">
+                <div class="hamster__head">
+                  <div class="hamster__ear"></div>
+                  <div class="hamster__eye"></div>
+                  <div class="hamster__nose"></div>
+                </div>
+                <div class="hamster__limb hamster__limb--fr"></div>
+                <div class="hamster__limb hamster__limb--fl"></div>
+                <div class="hamster__limb hamster__limb--br"></div>
+                <div class="hamster__limb hamster__limb--bl"></div>
+                <div class="hamster__tail"></div>
+              </div>
+            </div>
+            <div class="spoke"></div>
+          </div>
+        </div>
+
+        <script type="main.js">
+
+        </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script>
+
+      function loader() {
+        document.querySelector('.loader-container').
+        classList.add('active');
+      }
+
+      function fadeOut() {
+        setTimeout(loader, 1500);
+      }
+
+      fadeOut();
+
+    </script>
   </body>
 </html>
