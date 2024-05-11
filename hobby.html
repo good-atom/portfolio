@@ -79,7 +79,47 @@
             </div>
           </div>
         </div>
-
       </div>
+
+      <div class="loader-container">
+          <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+              <div class="hamster__body">
+                <div class="hamster__head">
+                  <div class="hamster__ear"></div>
+                  <div class="hamster__eye"></div>
+                  <div class="hamster__nose"></div>
+                </div>
+                <div class="hamster__limb hamster__limb--fr"></div>
+                <div class="hamster__limb hamster__limb--fl"></div>
+                <div class="hamster__limb hamster__limb--br"></div>
+                <div class="hamster__limb hamster__limb--bl"></div>
+                <div class="hamster__tail"></div>
+              </div>
+            </div>
+            <div class="spoke"></div>
+          </div>
+        </div>
+
+        <script type="main.js">
+
+        </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script>
+
+      function loader() {
+        document.querySelector('.loader-container').
+        classList.add('active');
+      }
+
+      function fadeOut() {
+        setTimeout(loader, 1500);
+      }
+
+      fadeOut();
+
+    </script>
   </body>
 </html>
