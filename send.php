@@ -1,5 +1,7 @@
 <?php
 
+/*https://api.telegram.org/bot7107354734:AAHJumfOCzE-RCTNs6fHGboVsL1Ry48Ark8/getUpdates*/
+
 $name = $_POST['name'];
 $telegram = $_POST['telegram'];
 $token = "7107354734:AAHJumfOCzE-RCTNs6fHGboVsL1Ry48Ark8";
