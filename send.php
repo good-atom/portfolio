@@ -16,8 +16,12 @@ foreach($arr as $key => $value) {
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
 if ($sendToTelegram) {
-  header('Location: my_web.html');
-} else {
-  echo "Error";
-}
+        alert('Спасибо! Ваша заявка принята. Мы свяжемся с вами в ближайшее время.');
+        /*header('Location: my_web.html'); перебрасывает на my_web*/
+    }
+
+//А здесь сообщение об ошибке при отправке
+    else {
+        alert('Что-то пошло не так. Попробуйте отправить форму ещё раз.');
+    }
 ?>
