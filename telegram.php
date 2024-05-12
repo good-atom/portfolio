@@ -1,6 +1,6 @@
 <?php
 
-/*https://api.telegram.org/bot7107354734:AAHJumfOCzE-RCTNs6fHGboVsL1Ry48Ark8/getUpdates*/
+/*https://api.telegram.org/bot7028989155:AAHMubg8mSDT-6H0SMNVXQnoeW2zrqW9GiQ/getUpdates*/
 
 $name = $_POST['name'];
 $telegram = $_POST['telegram'];
