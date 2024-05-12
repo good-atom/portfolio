@@ -62,7 +62,7 @@
                             </ul>
                              <div class="box">
                                 <div class="info-price">
-                                  <span class="price">220<small>₽</small></span>
+                                  <span class="price">240<small>₽</small></span>
 
                                   <div class="btn">
                                     <a href="" id="open_pop_up" class="add-to-card"><ion-icon name="cart-outline"></ion-icon></a>
@@ -73,11 +73,13 @@
                                     <div class="pop_up_container">    
                                         <div class="pop_up_body" id="pop_up_body">
                                           <p>Написать</p>
-                                            <form action="send.php" method="post">
-                                              <input type="name" name="name" placeholder="Имя">
-                                              <input type="telegram" name="telegram" placeholder="Телеграмм">
+                                          
+                                            <form action="/send.php" method="post">
+                                              <input type="text" name="name" placeholder="Имя" required>
+                                              <input type="text" name="telegram" placeholder="Телеграмм" required>
                                               <button>Оставить заказ</button>
                                             </form>
+                                          
                                           <div class="pop_up_close" id="pop_up_close">&#10006</div>
                                         </div>
                                     </div>
