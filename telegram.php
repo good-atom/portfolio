@@ -8,7 +8,7 @@ $token = "7028989155:AAHMubg8mSDT-6H0SMNVXQnoeW2zrqW9GiQ";
 $chat_id = "-4263865013";
 $arr = array(
   'Имя пользователя: ' => $name,
-  'Телеграмм: ' => $telegram,
+  'Телеграмм: ' => $telegram
 );
 
 foreach($arr as $key => $value) {
